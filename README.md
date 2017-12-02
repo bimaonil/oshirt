@@ -9,3 +9,4 @@ Kelebihan
 1.	Design tampilan yang modis, memakai background Splash
 2. Tampilan Register dan Login yang juga user Friendly
 3. Tersedia list pakaian yang terdapat dalam OSHIRT yang dapat dipesan   dengan mudah
+![a](https://user-images.githubusercontent.com/34176339/33512807-c5504a1c-d768-11e7-97ce-1b970157d78e.JPG)

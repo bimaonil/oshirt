@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLsigninController">
+   <children>
+      <ImageView fitHeight="398.0" fitWidth="699.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/12.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="250.0" layoutY="14.0" prefHeight="57.0" prefWidth="199.0" text="We Are OSHIRT" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edit_nama" layoutX="224.0" layoutY="83.0" prefHeight="38.0" prefWidth="252.0" promptText="Username" />
+      <TextField fx:id="edit_password" layoutX="224.0" layoutY="159.0" prefHeight="38.0" prefWidth="252.0" promptText="Password" />
+      <Button fx:id="signin" layoutX="288.0" layoutY="228.0" mnemonicParsing="false" onAction="#masuk" prefHeight="38.0" prefWidth="124.0" text="Sign In" />
+      <Button fx:id="signup" layoutX="288.0" layoutY="331.0" mnemonicParsing="false" onAction="#kusam" prefHeight="38.0" prefWidth="124.0" text="Sign Up" />
+      <Label layoutX="246.0" layoutY="293.0" prefHeight="31.0" prefWidth="208.0" text="Don't have Account ? Click below" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
